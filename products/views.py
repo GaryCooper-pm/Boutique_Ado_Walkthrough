@@ -4,6 +4,7 @@ from django.db.models import Q
 from django.db.models.functions import Lower
 
 from .models import Product, Category
+from .forms import ProductForm
 
 # Create your views here.
 
@@ -78,4 +79,4 @@ def add_product(request):
         'form': form
     }
 
-    return ernder(request, template, context)
+    return render(request, template, context)
