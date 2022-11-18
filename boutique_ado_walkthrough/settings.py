@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '+nu8m(vv-ekr=dxx&y!7vsubspeqv-3#9#_iu
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['gary-cooper-boutique-ado.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['gary-cooper-boutique-ado-walk.herokuapp.com', 'localhost']
 
 
 # Application definition
